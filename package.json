@@ -1,0 +1,24 @@
+{
+  "name": "smartcontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testToken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huongnguyen08/solidity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huongnguyen08/solidity/issues"
+  },
+  "homepage": "https://github.com/huongnguyen08/solidity#readme",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "mocha": "^5.2.0",
+    "truffle": "^4.1.11"
+  }
+}

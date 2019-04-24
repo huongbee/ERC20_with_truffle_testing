@@ -1,0 +1,18 @@
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum
+
+
+geth attach
+admin.startRPC("127.0.0.1",8545,"*","web3,net,eth,personal")
+
+
+geth console --syncmode "light"
+
+111111
+0xbD89d8892a8a1e0aa1f57F6b21518AC03b7DE881
+0xCFB29618f636B874e8965b6067023b55e78d0598
+0x03C1Ae15CA409357BB86715Fbc3610E31787ed96
+
+[ { "constant": true, "inputs": [], "name": "rate", "outputs": [ { "name": "", "type": "uint256", "value": "100" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [ { "name": "_rate", "type": "uint256" } ], "name": "setRate", "outputs": [ { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": false, "inputs": [], "name": "buyToken", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": false, "inputs": [ { "name": "_MyETHWallet", "type": "address" } ], "name": "setETHWallet", "outputs": [ { "name": "", "type": "address" } ], "payable": false, "stateMutability": "nonpayable", "type": "function" } ]
